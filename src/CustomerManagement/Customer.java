@@ -1,13 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package CustomerManagement;
 
 import java.io.Serializable;
 import oop_project.Address;
-
 
 public class Customer extends Industry implements Serializable
 {
@@ -37,6 +31,5 @@ public class Customer extends Industry implements Serializable
 
     public void setCustomerID(int customerID) {
         this.customerID = customerID;
-    }
-    
+    }  
 }
