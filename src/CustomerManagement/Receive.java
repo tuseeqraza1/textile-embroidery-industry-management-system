@@ -1,14 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package CustomerManagement;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import oop_project.Date1;
-
 
 public class Receive implements Serializable 
 {
@@ -41,7 +36,5 @@ public class Receive implements Serializable
 
     public void setAmount(Double amount) {
         this.amount = amount;
-    }
-
-    
+    } 
 }
